@@ -1,0 +1,225 @@
+h1 {
+  font-size: 3rem;
+  color: white;
+  margin-top: 100px;
+}
+span {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+p {
+  color: rgb(255, 255, 255);
+}
+a {
+  color: rgb(245, 238, 238);
+  padding: 5px;
+  text-decoration: none;
+}
+h3 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(66, 130, 130);
+}
+/* navegacion  */
+.navegacion {
+  background-color: rgb(99, 134, 130);
+  text-decoration: none;
+  /* margin-bottom: 20px; */
+}
+.navbar {
+  height: 60px;
+  background-color: rgba(144, 213, 213, 0.299);
+}
+.navbar-toggler-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.logo-adagio {
+  width: 90px;
+  height: 50px;
+}
+.text-bg {
+  background-color: rgba(95, 152, 227, 0.656);
+}
+.social {
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 3rem;
+
+}
+.boton-nav {
+  background-color: rgb(241, 9, 241);
+  /* border-radius: 100%; */
+}
+/* Fin navegacion */
+.btn-catalogo {
+  display: flex;
+  justify-content: center;
+}
+.boton {
+  width: 12rem;
+  height: 3.5rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: rgb(124, 154, 124);
+  border: none;
+}
+/* section parrafo */
+.contenido-p {
+  color: rgb(63, 106, 103);
+  margin-top: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.section-maps{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+/* section logos y marcas */
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.marcas {
+  display: flex;
+  justify-content: space-around;
+}
+.img-logo {
+  width: 70px;
+  height: 70px;
+}
+.img-marcas {
+  display: flex;
+  justify-content: center;
+ }
+/* footer */
+.social-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(160, 225, 218);
+  margin-bottom: 5px;
+}
+.prestigio {
+  color: black;
+}
+
+.embed-instagram{
+  border: solid;
+  border-color: rgb(149, 163, 187);
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+.formulario{
+
+  width: 60%;
+  background-color: rgba(150, 188, 181, 0.458);
+  padding: 8px;
+  margin-bottom: 6px;
+  border-radius: 4px;
+  
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1rem;
+    color: white;
+    margin-top: 50px;
+  }
+  span {
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  p {
+    color: rgb(255, 255, 255);
+  }
+  .boton {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: rgb(124, 154, 124);
+    font-size: small;
+  }
+
+  .img-logo {
+    margin: 0 auto;
+    /* display: flex; */
+    /* flex-direction: column; */
+  }
+  .logo-adagio {
+    width: 60px;
+    height: 38px;
+  }
+  .navbar {
+    height: 40px;
+    background-color: rgba(144, 213, 213, 0.299);
+  }
+  .navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 468px) {
+  h1 {
+    font-size: 1rem;
+    color: white;
+    margin-top: 60px;
+  }
+  span {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  p {
+    color: rgb(255, 255, 255);
+    font-size: small;
+  }
+  .btn-catalogo {
+    display: flex;
+    justify-content: center;
+    margin: -10px;
+  }
+  .boton {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: rgb(124, 154, 124);
+    font-size: small;
+  }
+  h3 {
+    text-align: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(66, 130, 130);
+    font-size: medium;
+  }
+  .logo-adagio {
+    width: 60px;
+    height: 38px;
+  }
+  .img-logo {
+    margin: 0 auto;
+  }
+  .marcas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar {
+    height: 40px;
+    background-color: rgba(144, 213, 213, 0.299);
+  }
+  .navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
