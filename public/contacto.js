@@ -1,9 +1,9 @@
 import "./style.css";
-import { navegacion } from "./nav.js";
-import { header } from "./header.js";
-import { section } from "./section-logos.js";
-import { sectionMarcas } from "./section-marcas-module.js";
-import { footer } from "./footer.js";
+import { navegacion } from "../nav.js";
+import { header } from "../header.js";
+import { section } from "../section-logos.js";
+import { sectionMarcas } from "../section-marcas-module.js";
+import { footer } from "../footer.js";
 
 document.querySelector("#app-contacto").innerHTML = `
 
